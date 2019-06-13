@@ -1,0 +1,37 @@
+body{
+    overflow-x:hidden;
+}
+
+#formRegistrar input:valid,#formIngresar input:valid,#formActualizar input:valid,#formCambiarContrasenia input:valid,#formCrearProducto input:valid,#formIngresarAdministrador input:valid,#formActualizarProducto input:valid{
+    border-bottom: 2px green solid;
+    transition: 1s;
+}
+
+#formRegistrar input:invalid,#formIngresar input:invalid,#formActualizar input:invalid,#formCambiarContrasenia input:invalid,#formCrearProducto input:invalid,#formIngresarAdministrador input:invalid,#formActualizarProducto input:invalid{
+    border-bottom: 2px red solid;
+    transition: 1s;
+}
+
+#imagen,#imagenProducto{
+    display: none;
+}
+
+.fotoPerfilCliente:hover{
+    cursor: pointer;
+}
+
+#menuhombres li:hover,#menumujeres li:hover{
+    cursor: pointer;
+}
+
+.ir-arriba{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #172b4d;
+    color: white;
+}
+
